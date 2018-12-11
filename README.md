@@ -8,6 +8,10 @@ For example, `feat/new-homepage` might be the name of a branch for a new homepag
 When you're ready to push your code up, you'd then use something like `git push origin feat/new-homepage`.
 When you're ready to have your code reviewed and merged, please open a pull request for your feature branch.
 
+## State Management
+
+We should use redux for global state management. For parts of state that exist only for one component (and its sub components, provided those sub components are stateless) (think UI state, like toggles and form data), local state should be preferred.
+
 # create-react-app default readme
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
